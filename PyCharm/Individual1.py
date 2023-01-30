@@ -13,12 +13,10 @@ if __name__ == '__main__':
             break
 
         elif command == 'add':
-            # Запросить данные о работнике
             destination = input("Название пункта назначения: ")
             number = int(input("Номер поезда: "))
             time = input("Время отправления: ")
 
-            # Создать словарь
             train = {
                 'destination': destination,
                 'number': number,
